@@ -19,4 +19,5 @@ function random() {
 
 function beepthreetime () { 
   navigator.notification.beep(3);
+
  }
