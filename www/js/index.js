@@ -5,7 +5,8 @@ $(document).on("pagecreate","#pageone",function(){
        
 
 	$('#randomgenerator').on("tap",function(){
-    	alert("Stop tapping!");
+    var trueorfalse = random();
+	alert(trueorfalse);
  	}); 
 
 
