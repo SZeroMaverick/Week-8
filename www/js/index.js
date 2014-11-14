@@ -6,6 +6,7 @@ $(document).on("pagecreate","#pageone",function(){
 
 	$('#randomgenerator').on("tap",function(){
     var trueorfalse = random();
+	beepthreetime();
 	alert(trueorfalse);
  	}); 
 
@@ -15,3 +16,7 @@ $(document).on("pagecreate","#pageone",function(){
 function random() { 
  return !Math.round(Math.random()); 
 }
+
+function beepthreetime () { 
+  navigator.notification.beep(3);
+ }
